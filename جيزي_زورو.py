@@ -98,4 +98,5 @@ def handle_otp(msg, msisdn):
     else:
         bot.send_message(chat_id, '❌ الرمز غير صحيح. حاول من جديد.')
 
+bot.remove_webhook()          
 bot.polling()
