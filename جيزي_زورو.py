@@ -1,14 +1,12 @@
-
 import telebot
 import asyncio
 import json
 import os
 from datetime import datetime
-from dotenv import load_dotenv
 import aiohttp
 
-load_dotenv()
-TOKEN = os.getenv("7723535106:AAH_8dQhq7QwVWh5JZf2iTrW4pgrT7vIykQ")
+# توكن البوت مباشرة داخل الكود
+TOKEN = '7723535106:AAH_8dQhq7QwVWh5JZf2iTrW4pgrT7vIykQ'
 bot = telebot.TeleBot(TOKEN)
 
 data_file = 'djezzy_data.json'
