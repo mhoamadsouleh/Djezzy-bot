@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 import aiohttp
 
 load_dotenv()
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("7723535106:AAH_8dQhq7QwVWh5JZf2iTrW4pgrT7vIykQ")
 bot = telebot.TeleBot(TOKEN)
 
 data_file = 'djezzy_data.json'
